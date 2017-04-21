@@ -1,0 +1,270 @@
+{
+  "ks_alfa_romeo_4c": [
+    { "type": "licensePlate", "style": "Europe" },
+	{ "type": "carPaint", "texture": "metal_detail.dds", "mapsTexture": "Carpaint_00_MAP.dds", "defaultColor": "#650900" },
+	{ "type": "color", "name": "Calipers", "texture": "CaliperDetail.dds", "defaultColor": "#ff0000" },
+	{ "type": "replacedIfFlagged", "name": "Black Rims", "pairs": { "Rim_Base.dds": "./ks_alfa_romeo_4c/Rim_Base.dds", "Rim_Base_MAP.dds": "./ks_alfa_romeo_4c/Rim_Base_MAP.dds", "Rim_Blur.dds": "./ks_alfa_romeo_4c/Rim_Blur.dds", "Rim_Blur_alpha.dds": "./ks_alfa_romeo_4c/Rim_Blur_alpha.dds"} },
+  ],
+  "ks_audi_r8_plus": [
+    { "type": "licensePlate", "style": "Europe" },
+	{ "type": "carPaint", "texture": "metal_detail.dds", "mapsTexture": "EXT_skin_MAP.dds", "defaultColor": "#970808" },
+	{ "type": "color", "name": "Calipers", "texture": "calipper.dds", "autoLevel": true, "defaultColor": "#181818" },
+	{ "type": "replacedIfFlagged", "name": "Black Rims", "pairs": { "Rim.dds": "./ks_audi_r8_plus/Rim.dds", "Rim_blur.dds": "./ks_audi_r8_plus/Rim_blur.dds"} },
+	{ "type": "replacedIfFlagged", "name": "Black Exhaust", "pairs": { "EXT_Buttom_Engine.dds": "./ks_audi_r8_plus/EXT_Buttom_Engine.dds", "EXT_Buttom_Engine_MAP.dds": "./ks_audi_r8_plus/EXT_Buttom_Engine_MAP.dds"} },
+
+  ],
+  "ks_alfa_mito_qv": [
+    { "type": "licensePlate", "style": "Europe" },
+	{ "type": "carPaint", "texture": "metal_detail.dds", "mapsTexture": "Skin_00_MAP.dds", "defaultColor": "#6e0301" },
+	{ "type": "color", "name": "Rims", "texture": "metal_detail_RIMS.dds", "defaultColor": "#212121" },
+	{ 
+      "type": "color",
+      "name": "Calipers",
+      "pairs": {
+        "EXT_Calipers.dds": { 
+          "source": "./ks_alfa_mito_qv/calipers_ao.png", 
+          "mask": "./ks_alfa_mito_qv/calipers_mask.png" 
+        }
+      },
+	  "autoLevel": true,
+	  "desaturate": true,
+      "defaultColors": [ "#c90b0b" ],
+    },
+	
+  ], 
+  "ks_audi_a1s1": [
+    { "type": "licensePlate", "style": "Europe" },
+	{ "type": "carPaint", "texture": "Metal_detail.dds", "mapsTexture": "Skin_00_MAP.dds", "defaultColor": "#102e70" },
+	{ "type": "color", "name": "Roof", "texture": "Metal_detail_ROOF.dds", "defaultColor": "#000000" },
+	{ "type": "color", "name": "Rear", "texture": "Metal_detail_REAR.dds", "defaultColor": "#000000" },
+	{ "type": "color", "name": "Rims", "texture": "Rim_metal_detail.dds", "defaultColor": "#161716" },
+	{ "type": "color", "name": "Calipers", "texture": "Caliper_metal_detail.dds", "defaultColor": "#c90000" },
+    { "type": "replacement", "name": "Stickers", "texture": "EXT_Decals_new.dds", "candidates": {
+      "White": "./ks_audi_a1s1_decal_white.dds",
+      "Black": "./ks_audi_a1s1_decal_black.dds",
+	}
+	}
+  ],
+  "ks_porsche_718_boxster_s": [
+    { "type": "licensePlate", "style": "Europe" },
+	{ "type": "carPaint", "texture": "metal_detail.dds", "mapsTexture": "EXT_skin_map.dds", "defaultColor": "#504f55" },
+	{ "type": "color", "name": "Calipers", "texture": "caliper_colour.dds", "defaultColor": "#b72626" },
+	{ "type": "color", "name": "Roof", "texture": "plastic_roof.dds", "defaultColor": "#7e2429" },
+  ], 
+  "ks_porsche_991_carrera_s": [
+    { "type": "licensePlate", "style": "Europe" },
+	{ "type": "carPaint", "texture": "metal_detail.dds", "mapsTexture": "Skin_00_MAP.dds", "defaultColor": "#a40300" },
+	{ "type": "color", "name": "Calipers", "texture": "caliper_colour.dds", "defaultColor": "#b82626" },
+	{ "type": "color", "name": "Rims", "texture": "metal_detail_rim.dds", "defaultColor": "#494949" },
+  ], 
+  "abarth500": [
+    { "type": "carPaint",
+      "texture": "metal_detail.dds",
+      "defaultColor": "#e6e4e6", 
+
+      "mapsTexture": "500_fiat_Color_Skin_map.dds",
+      "mapsAutoLevel": true,
+
+      "patternTexture": "SkinBase_DEFAULT.dds",
+      "patternBase": "./abarth500/body_ao.png",
+      "patternOverlay": "SkinBase_DEFAULT.dds",
+      "patterns": [
+        { "name": "Stripes", "colors": 1, "pattern": "./abarth500/stripes.png", "defaultColor": "#c3171e", "overlay": null },
+		{ "name": "Stripes & Scorpion", "colors": 1, "pattern": "./abarth500/stripes_scorpion.png", "defaultColor": "#c3171e", "overlay": null },
+      ],
+    },
+	{ 
+      "type": "color",
+      "name": "Rims",
+      "pairs": {
+        "Rim500.DDS": { "source": "./abarth500/rim_base.jpg", "mask": "./abarth500/rim_mask.png" },
+        "Rim500_BLUR.dds": { "source": "./abarth500/rim_blur_base.jpg", "mask": "./abarth500/rim_mask.png" }
+      },
+      "defaultColors": [ "#bfbfbf", "#b70101" ]
+    },
+    { 
+	  "type": "color",
+	  "name": "Calipers",
+	  "pairs": {
+        "BrakeClaw.dds": { "source": "./brakeclaw_ao.png", "mask": "./brakeclaw_mask.png", "defaultColor":"#e90000" }
+	  },
+	  "defaultColors": ["#e90000"]
+	},
+	{ "type": "color", "name": "Dashboard", "texture": "MAT_plancia.DDS", "defaultColor": "#cecbce" },
+	{ 
+      "type": "color",
+      "name": "Stitching",
+      "pairs": {
+        "cuciture.DDS": { "source": "./abarth500/cuciture.DDS", "mask": "./abarth500/cuciture_mask.png", "autoLevel": true, "desaturate": true },
+        "MAT_ross.dds": { "source": "./abarth500/MAT_ross.dds", "autoLevel": true }
+      },
+      "defaultColors": ["#ff0000"]
+    },	
+  ],
+  "bmw_1m": [
+    { "type": "carPaint", "texture": "metal_detail.dds", "defaultColor": "#d32508",  "mapsTexture": "Livrea_map.dds", "mapsAutoLevel": true, },
+	{ 
+      "type": "color",
+      "name": "Rims",
+      "pairs": {
+        "1M_Rim_Color.DDS": { "source": "./bmw_1m/rim_base.png", "mask": "./bmw_1m/rim_mask.png" },
+        "1M_Rim_Blur_Color.dds": { "source": "./bmw_1m/rim_blur_base.png", "mask": "./bmw_1m/rim_mask.png" }
+      },
+      "defaultColors": [ "#f7f7f7"]
+    },
+    { 
+	  "type": "color",
+	  "name": "Calipers",
+	  "pairs": {
+        "BrakeClaw.dds": { "source": "./brakeclaw_ao.png", "mask": "./brakeclaw_mask.png", "defaultColor":"#e90000" }
+	  },
+	  "defaultColors": ["#e90000"]
+	},
+  ],
+  "bmw_m3_e30": [
+    { "type": "carPaint", "texture": "metal_detail.dds", "defaultColor": "#080808",  "mapsTexture": "Carpaint_D_white_map.dds", "mapsAutoLevel": true, },
+	{ 
+      "type": "color",
+      "name": "Rims",
+      "pairs": {
+        "Rim_D.dds": { "source": "@self", "autoLevel": true },
+        "Rim_Blurred_D.dds": { "source": "@self", "autoLevel": true }
+      },
+      "defaultColors": [ "#f7f7f7"]
+    },
+    { 
+	  "type": "color",
+	  "name": "Calipers",
+	  "pairs": {
+        "BrakeClaw.dds": { "source": "./brakeclaw_ao.png", "mask": "./brakeclaw_mask.png", "defaultColor":"#e90000" }
+	  },
+	  "defaultColors": ["#e90000"]
+	},
+    { "type": "replacement", "name": "Bumpers", "texture": "bumper-color.dds", "candidates": {
+      "Black": "./bmw_m3_e30/bumper_black.dds",
+      "Red": "./bmw_m3_e30/bumper_red.dds",
+	}
+	}
+  ],
+  "abarth500_s1": [
+    "@guess",
+    { "type": "tintedWindow", "name": "Glass", "texture": "Glass.dds", "tintBase": true, "defaultColor": "#ffffff" },
+    { "type": "color", "name": "Rims", "pairs": { "Rim500.DDS": "@self", "Rim500_BLUR.dds": "@self" }, "autoLevel": true, "defaultColor": "#ffffff" },
+  ],
+  "lotus_2_eleven": [
+    "@guess",
+    { 
+      "type": "carPaint",
+      "texture": "metal_detail.dds",
+      "defaultColor": "#808080", 
+
+      "mapsTexture": "chassis_A_D_map.dds",
+      /*"mapsDefaultTexture": "./ao.jpg",*/
+      "mapsAutoLevel": true,
+
+      "patternTexture": "chassis_A_D2.dds",
+      "patternBase": "./lotus_2_eleven__ao.jpg",
+      "patternOverlay": "chassis_A_D2.dds", /* only non-transparent areas will be used, everything else will be ignored, so chassis_A_D2.dds will do just fine */
+      "patterns": [
+        { "name": "Stripes", "colors": 2, "pattern": "./lotus_2_eleven__stripes.png", "overlay": null },
+      ],
+    },
+  ], 
+  "ks_ferrari_488_gtb": [
+    { "type": "licensePlate", "style": "Europe" },
+	{ "type": "carPaint", "texture": "metal_detail.dds", "mapsTexture": "EXT_skin_map.dds", "defaultColor": "#ce0808" },
+	{ "type": "color", "name": "Roof", "texture": "metal_detail_roof.dds", "defaultColor": "#070707", "enabled": true },
+	{ 
+      "type": "color",
+      "name": "Rims",
+      "pairs": {
+        "Rim.dds": { "source": "./ks_ferrari_488_gtb/rim_ao.png", "mask": "./ks_ferrari_488_gtb/rim_mask.png"},
+        "Rim_blur.dds": { "source": "./ks_ferrari_488_gtb/rim_blur_ao.png", "mask": "./ks_ferrari_488_gtb/rim_blur_mask.png" }
+      },
+      "enabled": true,
+      "defaultColors": [ "#99998e" ],
+    },
+	{ 
+      "type": "color",
+      "name": "Calipers",
+      "pairs": {
+        "EXT_Caliper.dds": { 
+          "source": "./ks_ferrari_488_gtb/calipers_ao.png", 
+          "mask": "./ks_ferrari_488_gtb/calipers_mask.png" 
+        }
+      },
+      "enabled": true,
+      "defaultColors": [ "#151414" ],
+    },
+    { "type": "replacement", "name": "Leather 1", "texture": "leather_2.dds", "candidates": {
+      "Black": "./ks_ferrari_488_gtb/leather_black.dds",
+      "Beige": "./ks_ferrari_488_gtb/leather_beige.dds",
+      "Red": "./ks_ferrari_488_gtb/leather_red.dds",
+      "Dark Red": "./ks_ferrari_488_gtb/leather_darkred.dds",
+	  "Grey": "./ks_ferrari_488_gtb/leather_grey.dds",
+	  "Blue": "./ks_ferrari_488_gtb/leather_blue.dds",
+    } },
+    { "type": "replacement", "name": "Leather 2", "texture": "leather_3.dds", "candidates": {
+      "Black": "./ks_ferrari_488_gtb/leather_black.dds",
+      "Beige": "./ks_ferrari_488_gtb/leather_beige.dds",
+      "Red": "./ks_ferrari_488_gtb/leather_red.dds",
+      "Dark Red": "./ks_ferrari_488_gtb/leather_darkred.dds",
+	  "Grey": "./ks_ferrari_488_gtb/leather_grey.dds",
+	  "Blue": "./ks_ferrari_488_gtb/leather_blue.dds",
+    } },
+    { "type": "replacement", "name": "Stitching", "texture": "cinture.dds", "candidates": {
+      "Black": "./ks_ferrari_488_gtb/cinture_black.dds",
+      "Beige": "./ks_ferrari_488_gtb/cinture_beige.dds",
+      "Red": "./ks_ferrari_488_gtb/cinture_red.dds",
+	  "Grey": "./ks_ferrari_488_gtb/cinture_grey.dds",
+	  "Blue": "./ks_ferrari_488_gtb/cinture_blue.dds",
+    } },
+    { "type": "replacement", "name": "Display", "texture": "INT_Display_Color.dds", "candidates": {
+      "Black": "./ks_ferrari_488_gtb/display_black.dds",
+      "White": "./ks_ferrari_488_gtb/display_white.dds",
+      "Red": "./ks_ferrari_488_gtb/display_red.dds",
+	  "Yellow": "./ks_ferrari_488_gtb/display_yellow.dds",
+    } },
+  ],  
+  "ks_porsche_911_r": [
+    "@guess",
+    /* for a test */
+    // { "type": "color", "name": "Glass", "tintBase": true, "texture": "Glass_and_lights.dds" }, /* because alpha is in normals texture */
+    // { "type": "color", "name": "Glass (solid)", "texture": "Glass_and_lights.dds" },
+    //{ "type": "tintedWindow", "name": "Glass (adjust alpha)", "texture": "Glass_and_lights_NM.dds", "tintBase": true, "defaultColor": "#ffffff", "fixedColor": true },
+    //{ "type": "tintedWindow", "name": "Glass (adjust alpha, solid)", "texture": "Glass_and_lights_NM.dds", "defaultColor": "#8080ff", /* because of normals, but it’s still a bad idea */ "fixedColor": true },
+    { "type": "color", "name": "Seats leather", "texture": "leather_seat.dds" },
+    { "type": "color", "name": "Seats fabric", "texture": "pepita_fabric.dds", "tintBase": true },
+    { "type": "color", "name": "Seats fabric (solid)", "texture": "pepita_fabric.dds", "allowedColors": {
+      "Lapis Blue": "#323f48",
+      "Portofino": "#2b3033",
+      "Sandalwood": "#655f50",
+      "Ebony": "#2b2f2e",
+      "Snow": "#f3f5f2",
+    } }, /* for a test */
+    { "type": "replacement", "name": "Gauges", "texture": "INT_Gauges.dds", "candidates": {
+      "White": "./ks_porsche_911/gauges_white.dds",
+      "Green": "@self",
+      "Blue": "./ks_porsche_911_r/gauges_blue.dds",
+      "Yellow": "./ks_porsche_911_r/gauges_yellow.dds",
+    } }, /* for a test */
+    { "type": "color", "name": "Exhaust", "texture": "exhaust_detail.dds" }, /* for a test */
+    { "type": "licensePlate", "texture": "Plate_D.dds", "normals": null },
+    { 
+      "type": "carPaint",
+      "texture": "metal_detail.dds",
+      "defaultColor": "#606060", 
+      "flakesSize": 256,
+
+      "mapsTexture": "Skin_00_MAP.dds",
+
+      "patternTexture": "Skin_00.dds",
+      "patternBase": "./ks_porsche_911_r/body_ao.jpg",
+      "patterns": [
+        { "name": "Stripes", "defaultColors": [ "#ffff00", "#ffffff" ], "pattern": "./ks_porsche_911_r/stripes.png" },
+      ],
+
+      "liveryStyle": "Stripes"
+    },
+  ],  
+}
