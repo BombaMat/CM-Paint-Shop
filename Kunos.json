@@ -146,6 +146,26 @@
 	}
 	}
   ],
+  "bmw_m3_e92": [
+    { "type": "carPaint", "texture": "metal_detail.dds", "defaultColor": "#243b86",  "mapsTexture": "CAR_chassis_map.dds", "mapsAutoLevel": true, },
+	{ 
+      "type": "color",
+      "name": "Rims",
+      "pairs": {
+        "BMW_Rim.dds": { "source": "./bmw_m3_e92/rim_base.png", "mask": "./bmw_m3_e92/rim_mask.png" },
+        "BMW_Rim_BLUR.dds": { "source": "./bmw_m3_e92/rim_blur_base.dds", "mask": "./bmw_m3_e92/rim_blur_mask.png" }
+      },
+      "defaultColors": [ "#7F7F7F" ]
+    },
+    { 
+	  "type": "color",
+	  "name": "Calipers",
+	  "pairs": {
+        "CAR_brake_D.dds": { "source": "./bmw_m3_e92/brake.png", "mask": "./bmw_m3_e92/brake_mask.png" }
+	  },
+	  "defaultColors": ["#0F0F0F"]
+	},
+  ],
   "abarth500_s1": [
     "@guess",
     { "type": "tintedWindow", "name": "Glass", "texture": "Glass.dds", "tintBase": true, "defaultColor": "#ffffff" },
