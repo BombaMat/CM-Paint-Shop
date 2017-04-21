@@ -6,3 +6,6 @@ To learn how to create paint shop files for cars you can look at examples locate
 
 ## Syntax rules for contribution
 Currently priority goes to Kunos Cars that need to be added to the Kunos.json file **(Please move it to 'Data (User)' before editing it)**. If you want to use textures put them in Kunos Folder and then in car name folder, as example for the Ferrari 488 GTB you should create a folder named `ks_ferrari_488_gtb` in the `Kunos` folder and then put all textures in it, for calipers AO path should look like `./ks_ferrari_488_gtb/calipers_ao.png`.
+
+
+#### If you have any questions feel free to contact us on Telegram by clicking here : [MadMat](https://t.me/MadMat_AC) / [Ilja Jusupov](https://t.me/x4fab).
