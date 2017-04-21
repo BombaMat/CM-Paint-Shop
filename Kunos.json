@@ -161,7 +161,7 @@
 	  "type": "color",
 	  "name": "Calipers",
 	  "pairs": {
-        "CAR_brake_D.dds": { "source": "./bmw_m3_e92/brake.png", "mask": "./bmw_m3_e92/brake_mask.png" }
+        "CAR_brake_D.dds": { "source": "./bmw_m3_e92/calipers_base.png", "mask": "./bmw_m3_e92/calipers_mask.png" }
 	  },
 	  "defaultColors": ["#0F0F0F"]
 	},
