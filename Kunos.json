@@ -166,6 +166,50 @@
 	  "defaultColors": ["#0F0F0F"]
 	},
   ],
+  "ks_bmw_m4": [
+    { "type": "carPaint", "texture": "metal_detail.dds", "defaultColor": "#a49726",  "mapsTexture": "Skin_00_map.dds", "mapsAutoLevel": true, },
+	{ "type": "color", "name": "Roof", "texture": "metal_detail_roof.dds", "defaultColor": "#000000" },
+	{ 
+      "type": "color",
+      "name": "Rims",
+      "pairs": {
+        "Rim_D.dds": { "source": "./ks_bmw_m4/rim_base.png", "mask": "./ks_bmw_m4/rim_mask.png" },
+        "Rim_Blurred_D.dds": { "source": "./ks_bmw_m4/rim_blur_base.png", "mask": "./ks_bmw_m4/rim_blur_mask.png" },
+        "Rim_Blurred_Spokes_D.dds": { "source": "./ks_bmw_m4/rim_blur_spokes_base.dds", "mask": "./ks_bmw_m4/rim_blur_spokes_mask.png" }
+      },
+      "defaultColors": [ "#232323", "#5b5b5b" ]
+    },
+    { 
+	  "type": "color",
+	  "name": "Calipers",
+	  "pairs": {
+        "Brake_Caliper_D.dds": { "source": "./ks_bmw_m4/calipers_base.png", "mask": "./ks_bmw_m4/calipers_mask.png" }
+	  },
+	  "defaultColors": ["#1e54a7"]
+	},
+  ],
+  "ks_bmw_m4_akrapovic": [
+    { "type": "carPaint", "texture": "metal_detail.dds", "defaultColor": "#a49726",  "mapsTexture": "Skin_00_map.dds", "mapsAutoLevel": true, },
+	{ "type": "color", "name": "Roof", "texture": "metal_detail_roof.dds", "defaultColor": "#000000" },
+	{ 
+      "type": "color",
+      "name": "Rims",
+      "pairs": {
+        "Rim_D.dds": { "source": "./ks_bmw_m4/rim_base.png", "mask": "./ks_bmw_m4/rim_mask.png" },
+        "Rim_Blurred_D.dds": { "source": "./ks_bmw_m4/rim_blur_base.png", "mask": "./ks_bmw_m4/rim_blur_mask.png" },
+        "Rim_Blurred_Spokes_D.dds": { "source": "./ks_bmw_m4/rim_blur_spokes_base.dds", "mask": "./ks_bmw_m4/rim_blur_spokes_mask.png" }
+      },
+      "defaultColors": [ "#232323", "#5b5b5b" ]
+    },
+    { 
+	  "type": "color",
+	  "name": "Calipers",
+	  "pairs": {
+        "Brake_Caliper_D.dds": { "source": "./ks_bmw_m4/calipers_base.png", "mask": "./ks_bmw_m4/calipers_mask.png" }
+	  },
+	  "defaultColors": ["#1e54a7"]
+	},
+  ],
   "abarth500_s1": [
     "@guess",
     { "type": "tintedWindow", "name": "Glass", "texture": "Glass.dds", "tintBase": true, "defaultColor": "#ffffff" },
