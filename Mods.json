@@ -1,0 +1,41 @@
+{
+  "dallara_fx17": [
+    "@guess",
+    { 
+      "type": "carPaint",
+      "texture": "colour_detail_1.dds",
+      "defaultColor": "#606060", 
+      "flakesSize": 256,
+
+      "mapsTexture": "chassis_map.dds",
+      "mapsMask": "./dallara_fx17/maps_mask.png:r",
+      "liveryStyle": "CornerTriangle"
+    },
+    { 
+      "type": "color",
+      "name": "Second color",
+      "texture": "colour_detail_2.dds",
+      "defaultColor": "#606060",
+      "liveryColor": 1,
+      "liveryPriority": 10
+    },
+    { 
+      "type": "color",
+      "name": "Third color",
+      "texture": "colour_detail_3.dds",
+      "defaultColor": "#606060",
+      "liveryColor": 1
+    },
+    { 
+      "type": "replacedIfFlagged",
+      "name": "Flipped channels (test)",
+      "pairs": { "ExtMisc.dds": "ExtMisc.dds:bgr" }
+    },
+    { 
+      "type": "replacedIfFlagged",
+      "name": "Replaced channels (test)",
+      "pairs": { "ExtMisc.dds": { "red": "ExtMisc.dds:a", "blue": "./dallara_fx17/maps_mask.png:r", "alpha": "#88ffffff" } },
+      "enabled": true
+    },
+  ],
+}
