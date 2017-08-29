@@ -11,7 +11,62 @@
   ],
   "peugeot_504_tn": [
     { "type": "licensePlate", "style": "Europe" },
-    { "type": "carPaint", "texture": "tn_car_paint.dds", "mapsTexture": "tn_carpaint_MAP.dds", "mapsDefaultTexture": "tn_carpaint_SKIN.dds" /* instead of auto-leveling */, "defaultColor": "#deb887" },
+    { 
+      "type": "carPaint", 
+
+      /* color (txDetails) */
+      "texture": "tn_car_paint.dds",
+      "colorAvailable": true, /* set to false to allow replacements (candidates) only */
+      "flakesSize": 512,
+      "flakesAvailable": true, /* set to false to disable flakes */ 
+      "defaultColor": "#deb887",
+      "candidates": { /* optional replacements for txDetails */
+        "Carbon": "./carbon_detail.dds",
+        "Carbon (Colored)": { "path": "./carbon_detail.dds", "colored": true },
+      },
+
+      /* maps (txMaps) */
+      "mapsTexture": "tn_carpaint_MAP.dds", 
+      "mapsDefaultTexture": "tn_carpaint_SKIN.dds" /* instead of auto-leveling */, 
+
+      /* pattern (txDiffuse) */
+      "patternTexture": "tn_carpaint_SKIN.dds",
+      "patternBase": "tn_carpaint_SKIN.dds",
+      /* "patternSize": { "width": 2048, "height": 2048 }, */
+      "patterns": [
+        { 
+          "name": "TN Stripe",
+          "defaultColors": [ "#ffffff" ],
+          "pattern": "./peugeot_504_tn/stripe.png", 
+          "overlay": null 
+        },
+        { 
+          "name": "TN Stripe+Numbers",
+          "defaultColors": [ "#ffffff" ],
+          "pattern": "./peugeot_504_tn/stripe.png", 
+          "overlay": null,
+          "numbers": [
+            { "size": 220, "font": "Arial", "left": 820, "top": 420, "angle": 180, 
+              "horizontalAlignment": "center", "verticalAlignment": "center", "color": 0, "weight": "bold" },
+            { "size": 160, "font": "Arial", "left": 820, "top": 1840, "angle": 0, 
+              "horizontalAlignment": "center", "verticalAlignment": "center", "color": 0, "weight": "bold" },
+          ]
+        },
+        { 
+          "name": "Numbers",
+          "defaultColors": [ "#ffffff" ],
+          "pattern": "#00000000", 
+          "size": { "width": 2048, "height": 2048 },
+          "overlay": null,
+          "numbers": [
+            { "size": 220, "font": "Arial", "left": 820, "top": 420, "angle": 180, 
+              "horizontalAlignment": "center", "verticalAlignment": "center", "color": 0, "weight": "bold" },
+            { "size": 160, "font": "Arial", "left": 820, "top": 1840, "angle": 0, 
+              "horizontalAlignment": "center", "verticalAlignment": "center", "color": 0, "weight": "bold" },
+          ]
+        },
+      ],
+    },
     { "type": "color", "name": "Rims", "texture": "tn_rims_color.dds", "defaultColor": "#000000" },
     { "type": "color", "name": "Interior", "texture": "tn_int_inside_color.dds", "defaultColor": "#f5deb3" },
     { "type": "color", "name": "Leather", "texture": "tn_int_leather_color.dds", "defaultColor": "#000000" },
