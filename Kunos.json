@@ -66,7 +66,7 @@
       "mapsAutoLevel": true,
 
       "patternTexture": "SkinBase_DEFAULT.dds",
-      "patternBase": "./abarth500/body_ao.png",
+      "patternBase": "./abarth500/body_ao.jpg",
       "patternOverlay": "SkinBase_DEFAULT.dds",
       "patterns": [
         { "name": "Stripes", "colors": 1, "pattern": "./abarth500/stripes.png", "defaultColor": "#c3171e", "overlay": null },
@@ -307,7 +307,7 @@
       "Snow": "#f3f5f2",
     } }, /* for a test */
     { "type": "replacement", "name": "Gauges", "texture": "INT_Gauges.dds", "candidates": {
-      "White": "./ks_porsche_911/gauges_white.dds",
+      "White": "./ks_porsche_911_r/gauges_white.dds",
       "Green": "@self",
       "Blue": "./ks_porsche_911_r/gauges_blue.dds",
       "Yellow": "./ks_porsche_911_r/gauges_yellow.dds",
