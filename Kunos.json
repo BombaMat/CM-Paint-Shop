@@ -328,4 +328,18 @@
 			"liveryStyle": "Stripes"
 		},
 	],  
+  "ks_toyota_supra_mkiv": [
+    "@guess",
+    { "type": "licensePlate", "style": "Japan" },
+    { "type": "color", "name": "Rims", "pairs": [
+      { 
+        "texture": { "name": "exterior_rim_diffuse.dds:hdrauto", "adjust": 2.2 },
+        "source": { "path": "@self", "autoLevel": true, "desaturate": true },
+      },
+      { 
+        "texture": { "name": "exterior_rim_blur_diffuse.dds:hdrauto", "adjust": 2.2 },
+        "source": { "path": "@self", "autoLevel": true, "desaturate": true },
+      },
+    ], "defaultColor": "#ffffff" },
+  ],
 }
